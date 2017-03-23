@@ -13,6 +13,12 @@
 		476C1EEB1E840C2B00E26ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476C1EE91E840C2B00E26ACA /* Main.storyboard */; };
 		476C1EED1E840C2B00E26ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476C1EEC1E840C2B00E26ACA /* Assets.xcassets */; };
 		476C1EF01E840C2B00E26ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476C1EEE1E840C2B00E26ACA /* LaunchScreen.storyboard */; };
+		476C1EF91E840EFC00E26ACA /* FatherTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C1EF81E840EFC00E26ACA /* FatherTableView.m */; };
+		476C1EFC1E840FEF00E26ACA /* ChildTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C1EFB1E840FEF00E26ACA /* ChildTableView.m */; };
+		476C1EFF1E84110900E26ACA /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C1EFE1E84110900E26ACA /* ContentViewController.m */; };
+		476C1F021E8416C100E26ACA /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C1F011E8416C100E26ACA /* CustomView.m */; };
+		476C1F051E84193800E26ACA /* ATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C1F041E84193800E26ACA /* ATableViewController.m */; };
+		476C1F081E84194000E26ACA /* BTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476C1F071E84194000E26ACA /* BTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		476C1EEC1E840C2B00E26ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		476C1EEF1E840C2B00E26ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		476C1EF11E840C2B00E26ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476C1EF71E840EFC00E26ACA /* FatherTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatherTableView.h; sourceTree = "<group>"; };
+		476C1EF81E840EFC00E26ACA /* FatherTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatherTableView.m; sourceTree = "<group>"; };
+		476C1EFA1E840FEE00E26ACA /* ChildTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildTableView.h; sourceTree = "<group>"; };
+		476C1EFB1E840FEF00E26ACA /* ChildTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildTableView.m; sourceTree = "<group>"; };
+		476C1EFD1E84110900E26ACA /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		476C1EFE1E84110900E26ACA /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		476C1F001E8416C100E26ACA /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		476C1F011E8416C100E26ACA /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		476C1F031E84193800E26ACA /* ATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATableViewController.h; sourceTree = "<group>"; };
+		476C1F041E84193800E26ACA /* ATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATableViewController.m; sourceTree = "<group>"; };
+		476C1F061E84194000E26ACA /* BTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTableViewController.h; sourceTree = "<group>"; };
+		476C1F071E84194000E26ACA /* BTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,18 @@
 				476C1EE41E840C2B00E26ACA /* AppDelegate.m */,
 				476C1EE61E840C2B00E26ACA /* ViewController.h */,
 				476C1EE71E840C2B00E26ACA /* ViewController.m */,
+				476C1F031E84193800E26ACA /* ATableViewController.h */,
+				476C1F041E84193800E26ACA /* ATableViewController.m */,
+				476C1F061E84194000E26ACA /* BTableViewController.h */,
+				476C1F071E84194000E26ACA /* BTableViewController.m */,
+				476C1F001E8416C100E26ACA /* CustomView.h */,
+				476C1F011E8416C100E26ACA /* CustomView.m */,
+				476C1EFD1E84110900E26ACA /* ContentViewController.h */,
+				476C1EFE1E84110900E26ACA /* ContentViewController.m */,
+				476C1EF71E840EFC00E26ACA /* FatherTableView.h */,
+				476C1EF81E840EFC00E26ACA /* FatherTableView.m */,
+				476C1EFA1E840FEE00E26ACA /* ChildTableView.h */,
+				476C1EFB1E840FEF00E26ACA /* ChildTableView.m */,
 				476C1EE91E840C2B00E26ACA /* Main.storyboard */,
 				476C1EEC1E840C2B00E26ACA /* Assets.xcassets */,
 				476C1EEE1E840C2B00E26ACA /* LaunchScreen.storyboard */,
@@ -152,7 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				476C1EE81E840C2B00E26ACA /* ViewController.m in Sources */,
+				476C1F051E84193800E26ACA /* ATableViewController.m in Sources */,
+				476C1EF91E840EFC00E26ACA /* FatherTableView.m in Sources */,
+				476C1EFF1E84110900E26ACA /* ContentViewController.m in Sources */,
 				476C1EE51E840C2B00E26ACA /* AppDelegate.m in Sources */,
+				476C1F021E8416C100E26ACA /* CustomView.m in Sources */,
+				476C1EFC1E840FEF00E26ACA /* ChildTableView.m in Sources */,
+				476C1F081E84194000E26ACA /* BTableViewController.m in Sources */,
 				476C1EE21E840C2B00E26ACA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +309,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9H9Y2TUHE4;
 				INFOPLIST_FILE = testScrolView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pub.xyw.testScrolView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9H9Y2TUHE4;
 				INFOPLIST_FILE = testScrolView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pub.xyw.testScrolView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
